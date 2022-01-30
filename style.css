@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "News Cycle", sans-serif;
+  padding: 20px;
+  background-color: lightgrey;
+}
+.column {
+  cursor: pointer;
+  display: inline-table;
+  width: 260px;
+  padding: 10px;
+  height: 660px auto;
+  border-top: 5px solid rgb(167, 167, 167);
+  background-color: white;
+  color: #666;
+  margin: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+
+}
+
+.column:hover {
+  border-color: #0974b3;
+  transform: scale(1.01);
+
+}
+h2 {
+  color: #0974b3;
+  font-size: 1.5rem;
+}
+img {
+  width: 130px;
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.birth {
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+a {
+  background-color: #187bb6;
+  border: none;
+  color: white;
+  padding: 20px 75px;
+  align-items: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  cursor: pointer;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+a:hover {
+  background-color: #074567;
+}
+/* .zoom {
+  position: absolute;
+  width: 260px;
+  top: 20px;
+  opacity: 0;
+  background: white;
+  color: black;
+  transition: 0.4s ease-out;
+}
+.img:hover:hover {
+  .zoom {
+    opacity: 0.6;
+  }
+} */
+
+
